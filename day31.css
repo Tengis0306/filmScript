@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-color: rgb(214, 108, 143);
+}
+.bar{
+    width: 40px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 20px ;
+}
+.hamburger{
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+.hamburger:hover .top-fall{
+    transform: translateY(10px);
+    transition: 1s;
+    background-color: rgb(251, 65, 96);
+}
+.hamburger:hover .bottom-up{
+    transform: translateY(-10px);
+    transition: 1s;
+    background-color:rgb(253, 81, 110);
+    transition: 1s;
+}
+.hamburger:hover .middle-red{
+    background-color: rgb(254, 80, 109);
+    transition: 1s;
+}
+
+.Namuun {
+    color: white;
+    margin-left: 200px;
+    opacity: 0;
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.Dulguun {
+    color: white;
+    margin-left: 200px;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.Chuka {
+    color: white;
+    margin-left: 200px;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.hamburger:hover .Namuun { 
+    transform:translateX(-100px); 
+    transition-duration: 1s;
+    opacity: 1;
+}
+.hamburger:hover .Dulguun { 
+    transform:translateX(-100px); 
+    transition-duration: 1.5s;
+    opacity: 1;
+}
+.hamburger:hover .Chuka { 
+    transform:translateX(-100px); 
+    transition-duration: 2s;
+    opacity: 1;
+
+}
+.purple{
+    height: 100vh;
+    width: 350px;
+    background-color: rgb(148, 22, 194);
+}
+.haalt1 , .haalt2{
+    height: 1px;
+    width: 15px;
+    background-color: white;
+    display: none;
+}
+.hamburger:hover .haalt1{
+    display: block;
+}
