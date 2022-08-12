@@ -31,26 +31,24 @@ body{
 }
 
 .Namuun {
-    color: white;
+    color: yellow;
     margin-left: 200px;
-    opacity: 0;
+    opacity: 1  ;
     height: 15px;
     width: 15px;
-    background-color: gray;
-    border-radius: 10px;
 }
 
 .Dulguun {
-    color: white;
+    color: yellow;
     margin-left: 200px;
-    opacity: 0;
+    opacity: 1;
     margin-top: 15px;
 }
 
 .Chuka {
-    color: white;
+    color: yellow; 
     margin-left: 200px;
-    opacity: 0;
+    opacity: 1;
     margin-top: 15px;
 }
 
@@ -75,12 +73,82 @@ body{
     width: 350px;
     background-color: rgb(148, 22, 194);
 }
-.haalt1 , .haalt2{
-    height: 1px;
-    width: 15px;
-    background-color: white;
-    display: none;
+
+.deed1 { 
+    background-color:gray;
+    height: 2px;
+    width: 60px;
+    transition: width 2s;
+    opacity:0.5;
+    position: absolute;
+    transition: 1s;
 }
-.hamburger:hover .haalt1{
-    display: block;
+.top:hover .deed1{ 
+    height: 10px;
+}
+.dood1{ 
+    background-color:gray;
+    height: 2px;
+    width: 60px;
+    transition: width 2s;
+    opacity:0.5;
+    position: absolute;
+    transition: 1s; 
+}
+
+.Namuun:hover .dood1{ 
+    height: 10px;
+    margin-top: -8.3px;
+}
+.deed2 { 
+    background-color:gray;
+    height: 2px;
+    width: 60px;
+    transition: width 2s;
+    opacity:0.5;
+    position: absolute;
+    transition: 1s;
+}
+.mid:hover .deed2{ 
+    height: 10px;
+}
+.dood2{ 
+    background-color:gray;
+    height: 2px;
+    width: 60px;
+    transition: width 2s;
+    opacity:0.5;
+    position: absolute;
+    transition: 1s; 
+}
+
+.Dulguun:hover .dood2{ 
+    height: 10px;
+    margin-top: -8.3px;
+}
+.deed3 { 
+    background-color:gray;
+    height: 2px;
+    width: 60px;
+    transition: width 2s;
+    opacity:0.5;
+    position: absolute;
+    transition: 1s;
+}
+.bottom:hover .deed3{ 
+    height: 10px;
+}
+.dood3{ 
+    background-color:gray;
+    height: 2px;
+    width: 60px;
+    transition: width 2s;
+    opacity:0.5;
+    position: absolute;
+    transition: 1s; 
+}
+
+.Chuka:hover .dood3{ 
+    height: 10px;
+    margin-top: -8.3px;
 }

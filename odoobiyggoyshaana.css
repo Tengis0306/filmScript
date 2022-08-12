@@ -1,0 +1,33 @@
+.deed{ 
+    background-color: gray;
+    height: 2px;
+    width: 40px;
+    transition: width 2s;
+    opacity:0.5;
+    position: absolute;
+    transition: 1s;
+
+}
+
+.dood{ 
+    background-color: gray;
+    height: 2px;
+    width: 40px;
+    transition: width 2s;
+    opacity:0.5; 
+    position: absolute;
+    transition: 1s;
+}
+.tom:hover .deed{ 
+    height: 10px;
+
+}
+.tom { 
+  width: 100px;
+  height: 1px;
+  position: absolute;
+}
+.tom:hover .dood{ 
+    height: 10px;
+    margin-top: -8.3px;
+}
