@@ -33,7 +33,7 @@ body{
 .Namuun {
     color: yellow;
     margin-left: 200px;
-    opacity: 1  ;
+    opacity: 0  ;
     height: 15px;
     width: 15px;
 }
@@ -41,14 +41,14 @@ body{
 .Dulguun {
     color: yellow;
     margin-left: 200px;
-    opacity: 1;
+    opacity: 0;
     margin-top: 15px;
 }
 
 .Chuka {
     color: yellow; 
     margin-left: 200px;
-    opacity: 1;
+    opacity: 0;
     margin-top: 15px;
 }
 
@@ -75,23 +75,25 @@ body{
 }
 
 .deed1 { 
-    background-color:gray;
+    background-color: white;
     height: 2px;
     width: 60px;
     transition: width 2s;
-    opacity:0.5;
+    opacity:1;
     position: absolute;
     transition: 1s;
 }
 .top:hover .deed1{ 
     height: 10px;
+    opacity: 0.5;
+    
 }
 .dood1{ 
-    background-color:gray;
+    background-color: white;
     height: 2px;
     width: 60px;
     transition: width 2s;
-    opacity:0.5;
+    opacity:1;
     position: absolute;
     transition: 1s; 
 }
@@ -99,25 +101,27 @@ body{
 .Namuun:hover .dood1{ 
     height: 10px;
     margin-top: -8.3px;
+    opacity: 0.5;
 }
 .deed2 { 
-    background-color:gray;
+    background-color: white;
     height: 2px;
     width: 60px;
     transition: width 2s;
-    opacity:0.5;
+    opacity:1;
     position: absolute;
     transition: 1s;
 }
 .mid:hover .deed2{ 
     height: 10px;
+    opacity: 0.5;
 }
 .dood2{ 
-    background-color:gray;
+    background-color: white;
     height: 2px;
     width: 60px;
     transition: width 2s;
-    opacity:0.5;
+    opacity:1;
     position: absolute;
     transition: 1s; 
 }
@@ -125,25 +129,27 @@ body{
 .Dulguun:hover .dood2{ 
     height: 10px;
     margin-top: -8.3px;
+    opacity: 0.5;
 }
 .deed3 { 
-    background-color:gray;
+    background-color: white;
     height: 2px;
     width: 60px;
     transition: width 2s;
-    opacity:0.5;
+    opacity:1;
     position: absolute;
     transition: 1s;
 }
 .bottom:hover .deed3{ 
     height: 10px;
+    opacity: 0.5;
 }
 .dood3{ 
-    background-color:gray;
+    background-color: white;
     height: 2px;
     width: 60px;
     transition: width 2s;
-    opacity:0.5;
+    opacity:1;
     position: absolute;
     transition: 1s; 
 }
@@ -151,4 +157,5 @@ body{
 .Chuka:hover .dood3{ 
     height: 10px;
     margin-top: -8.3px;
+    opacity: 0.5;
 }
